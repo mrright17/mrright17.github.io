@@ -64,7 +64,8 @@ h6,
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: rgba(30, 67, 86, 0.8);
+  /* #1e4356; */
 }
 #header.header-transparent {
   background: none;
@@ -90,7 +91,8 @@ h6,
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
+  width: 350px;
 }
 
 #main {
