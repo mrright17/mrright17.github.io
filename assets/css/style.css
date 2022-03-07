@@ -295,9 +295,10 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
+  height: 130vh;
   overflow: hidden;
   position: relative;
+  margin-top: -18%;
 }
 #hero::after {
   content: "";
@@ -307,7 +308,7 @@ h6,
   top: 0;
   width: 150%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.5), rgba(30, 67, 86, 0.4)), url("../img/hero-bg.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -336,6 +337,7 @@ h6,
   left: 0;
   right: 0;
 }
+
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -446,7 +448,7 @@ h6,
   right: 0;
   bottom: 0;
   /* background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat; */
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/addition/cryo-system.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.4), rgba(30, 67, 86, 0.3)), url("../img/addition/cryo-system.jpg") center top no-repeat;
 }
 #hero-no-slider h2 {
   color: #fff;
@@ -558,6 +560,11 @@ section {
   color: #6c757d;
   content: "/";
 }
+
+.banner-word {
+  margin-top: 450px !important;
+}
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
