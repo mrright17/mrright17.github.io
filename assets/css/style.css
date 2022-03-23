@@ -295,7 +295,7 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 130vh;
+  height: 135vh;
   overflow: hidden;
   position: relative;
   margin-top: -18%;
@@ -308,7 +308,7 @@ h6,
   top: 0;
   width: 150%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.5), rgba(30, 67, 86, 0.4)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(89, 137, 161, 0.4), rgba(30, 67, 86, 0.3)), url("../img/hero-bg.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -319,7 +319,7 @@ h6,
   left: 50%;
   top: 0;
   width: 130%;
-  height: 96%;
+  height: 98%;
   background: #68a4c4;
   opacity: 0.3;
   z-index: 0;
@@ -415,7 +415,7 @@ h6,
   #hero::after {
     left: 40%;
     top: 0;
-    width: 200%;
+    width: 20%;
     height: 95%;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
@@ -423,7 +423,7 @@ h6,
   #hero::before {
     left: 50%;
     top: 0;
-    width: 200%;
+    width: 20%;
     height: 94%;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) translateY(20px) rotate(4deg);
