@@ -125,7 +125,7 @@ h6,
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -1170,7 +1170,9 @@ section {
   color: #68a4c4;
 }
 .portfolio .portfolio-item {
-  background: #1e4356;
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  background: #f3f8fa;
+  /* #1e4356; */
   overflow: hidden;
   min-height: 200px;
   position: relative;
